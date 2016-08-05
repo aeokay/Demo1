@@ -1026,7 +1026,20 @@ class WC_Product {
 
 		} elseif ( $this->get_price() === '' ) {
 
-			$price = apply_filters( 'woocommerce_empty_price_html', '', $this );
+			/* $price = apply_filters( 'woocommerce_empty_price_html', 'FREE!', $this ); */
+			if ( $this->is_on_sale() && $this->get_regular_price() ) {
+
+				$price .= $this->get_price_html_from_to( $display_regular_price, __( 'Free!', 'woocommerce' ) );
+
+				$price = apply_filters( 'woocommerce_free_sale_price_html', $price, $this );
+
+			} else {
+
+				$price = '<span class="amount">' . __( 'Free!', 'woocommerce' ) . '</span>';
+
+				$price = apply_filters( 'woocommerce_free_price_html', $price, $this );
+
+			}
 
 		} elseif ( $this->get_price() == 0 ) {
 
