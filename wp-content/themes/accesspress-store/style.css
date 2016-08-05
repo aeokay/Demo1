@@ -31,16 +31,16 @@ legend,table,caption,tbody,tfoot,thead,tr,th,td {
 }
 html {
     font-size: 62.5%;
-    overflow-y: scroll;    
-    -webkit-text-size-adjust: 100%;    
-    -ms-text-size-adjust: 100%;  
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
     box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
     /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-    
+
     box-sizing: inherit;
 }
 body {
@@ -154,7 +154,7 @@ abbr,acronym {
     cursor: help;
 }
 mark,ins {
-    
+
     text-decoration: none;
 }
 sup,
@@ -212,7 +212,7 @@ img {
     vertical-align: middle;
     height: auto;
     /* Make sure images are scaled correctly. */
-    
+
     max-width: 100%;
     /* Adhere to container width. */
 }
@@ -236,13 +236,13 @@ select,
 textarea {
     font-size: 100%;
     /* Corrects font size not being inherited in all browsers */
-    
+
     margin: 0;
     /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
-    
+
     vertical-align: baseline;
     /* Improves appearance and consistency in all browsers */
-    
+
     outline: 0;
 }
 button,
@@ -291,11 +291,11 @@ input[type="search"] {
 textarea {
     overflow: auto;
     /* Removes default vertical scrollbar in IE6/7/8/9 */
-    
+
     padding-left: 3px;
     vertical-align: top;
     /* Improves readability and alignment in all browsers */
-    
+
     width: 100%;
 }
 /*--------------------------------------------------------------
@@ -637,12 +637,12 @@ boxed .#site-navigation > .store-menu > ul > li:last-child:hover ul:after {
 .ak-container:before,
 .promo-product1:before,
 .feature-cat-product-wrap:before,
-.clearfix:before, 
+.clearfix:before,
 .clear:before,
 .ak-container:after,
 .promo-product1:after,
 .feature-cat-product-wrap:after,
-.clearfix:after, 
+.clearfix:after,
 .clear:after,
 .ak-container:before,
 .entry-content:before,
@@ -658,7 +658,7 @@ boxed .#site-navigation > .store-menu > ul > li:last-child:hover ul:after {
     content: "";
     display: table;
 }
-.clearfix:after, 
+.clearfix:after,
 .clear:after,
 .ak-container:after,
 .promo-product1:after,
@@ -753,7 +753,7 @@ boxed .#site-navigation > .store-menu > ul > li:last-child:hover ul:after {
 
 .infinite-scroll.neverending .site-footer {
     /* Theme Footer (when set to scrolling) */
-    
+
     display: none;
 }
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
@@ -884,7 +884,7 @@ COMMON CSS
 body {
     font-weight: 400;
     overflow: hidden;
-    
+
     position: relative;
 }
 .ak-container {
@@ -2261,7 +2261,7 @@ widget css
     list-style: none;
     margin: 0;
 }
-#secondary .widget_archive ul, #secondary .widget_categories ul, #secondary .widget_recent_entries ul, 
+#secondary .widget_archive ul, #secondary .widget_categories ul, #secondary .widget_recent_entries ul,
 #secondary .widget_meta ul, #secondary .widget_recent_comments ul {
     padding-left: 0;
 }
@@ -2925,7 +2925,7 @@ Responsive grid for pages
     width: 100%;
 }
 .promo-wrap1 {
-    
+
 }
 .promo-wrap1 .promo-product1 {
     margin-left: -10px;
@@ -3069,7 +3069,7 @@ Responsive grid for pages
 .new-prod-slide .slick-slide a {
     color: #333;
 }
-.page-template .add_to_cart_button, 
+.page-template .add_to_cart_button,
 .page-template .product_type_simple,
 .page-template .product_type_external,
 .page-template .added_to_cart {
@@ -3631,7 +3631,7 @@ Responsive grid for pages
     color: #000000 !important;
     line-height: 30px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0;
     opacity: 1;
     padding: 0;
@@ -3668,7 +3668,8 @@ Responsive grid for pages
     margin-bottom: 20px;
     overflow: hidden;
     position: relative;
-    width: 33.33%;
+     width: 25%;
+/*     width: 33.33%; */
 }
 .woocommerce ul.products li.product .price-cart .gridlist-buttonwrap {
     clear: both;
@@ -3724,7 +3725,7 @@ Responsive grid for pages
     width: 100%;
     position: relative;
     overflow: hidden;
-    height: 240px;
+    height: 173px;
     text-align: center;
 }
 .full-outer {
@@ -3788,7 +3789,8 @@ ul.products.list li.product {
 }
 ul.products.list li.product .collection_combine {
     float: left;
-    width: 35%;
+    /*width: 35%;*/
+    width: 20%;
 }
 ul.products.list li.product .star-rating,
 ul.products.list li.product .short_desc {
@@ -3973,7 +3975,7 @@ a.compare.button {
     color: #FFF;
 }
 .mini_cart_item .quantity {
-    -ms-transform: rotate(7deg);    
+    -ms-transform: rotate(7deg);
     width: 100%;
     color: #fff;
     text-align: center;
@@ -4069,11 +4071,11 @@ a.compare.button {
 .widget_accesspress_store_product2 .feature-cat-product.right_align .slick-next,
 .widget_accesspress_store_product2 .feature-cat-product.right_align .slick-prev{
     position:absolute;
-    left:0; 
-    
+    left:0;
+
 }
 .widget_accesspress_store_product2 .feature-cat-product.right_align .slick-next{
-    margin-left:29px;   
+    margin-left:29px;
 }
 .columns-widget-count-2 aside {
     width: 48%;
@@ -4102,7 +4104,7 @@ a.compare.button {
     line-height: 19px;
 }
 .welcome-user span.line {
-  
+
 }
 .ticker-wrapper.has-js {
     width: 50%;
@@ -4279,7 +4281,7 @@ div.view-cart .sub-menu {
     padding: 0 !important;
     position: static;
 }
-.ticker-content, 
+.ticker-content,
 .ticker-swipe{
     background-color: transparent;
 }
@@ -4309,7 +4311,7 @@ div.view-cart .sub-menu {
 }
 .before-top-header {
     padding: 5px 0;
-} 
+}
 .top-header {
     margin: 0px;
     margin-bottom: 15px;
@@ -4348,7 +4350,7 @@ a.quick-wishlist {
     padding-left: 10px;
     line-height: 16px;
     margin: 8px 6px 8px 0;
- 
+
 }
 .view-cart a.wcmenucart-contents {
     color: #919191;
@@ -4368,7 +4370,7 @@ a.quick-wishlist {
     position: relative;
     padding-left: 0px;
     margin:0;
-    
+
 }
 #menu {
     float: right;
@@ -4384,7 +4386,7 @@ a.quick-wishlist {
     border-bottom: 28px solid #313131;
     position: absolute;
     top: 0;
-    left: -56px;
+    left: -58px;
     z-index: 1;
     height: 56px;
 }
@@ -4608,7 +4610,7 @@ a.quick-wishlist {
     background: #e24545;
     color: #fff;
 }
-.slick-track li {} 
+.slick-track li {}
 .slick-track li a:first-child {
     display: block;
     position: relative;
@@ -4743,7 +4745,7 @@ span.onsale:after,
 }*/
 .woocommerce.single.single-product .entry-summary form button.button {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 1px 20px;
     float: none;
     width: auto;
     background: #e7e7e7;
@@ -4753,7 +4755,7 @@ span.onsale:after,
     line-height: inherit;
     height: auto;
     border-radius: 0px;
-    width: 70%;
+    width: auto;
     white-space: normal;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -5013,24 +5015,24 @@ span.onsale:after,
     margin-left: 10px !important;
     border-bottom: 1px solid #eee;
 }
-.widget_product_categories ul.children li a{ 
-    font-size: 13px; 
-    padding-left: 10px !important; 
-    line-height:30px !important;    
+.widget_product_categories ul.children li a{
+    font-size: 13px;
+    padding-left: 10px !important;
+    line-height:30px !important;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
-.widget_product_categories ul.children li a:after{    
+.widget_product_categories ul.children li a:after{
        content: "\f0da";
     position: relative;
     display: inline-block;
     float: left;
     line-height: 2.1; }
-    
- 
+
+
 #ap-cta-video {
     background: #3d3d3d;
     margin: 40px 0px;
@@ -5044,7 +5046,7 @@ span.onsale:after,
     background: rgba(0, 0, 0, 0.8);
 }
 .boxed .cta-vid-wrap{
-    padding:0 20px; 
+    padding:0 20px;
 }
 #ap-cta-video .widget_accesspress_cta_simple {
     background: url(images/you.png) no-repeat right;
@@ -5540,7 +5542,7 @@ span.onsale:after,
     background: url("images/rply.png") no-repeat right !important;
 }
 #secondary.sidebar ul {
-    margin: 0px;  
+    margin: 0px;
 }
 #secondary.sidebar ul.children {
     margin-top: 5px;
@@ -5599,7 +5601,7 @@ li.cat-parent {
     padding: 0px;
     line-height: 1.3 !important;
     white-space: normal;
- 
+
 }
 #secondary.sidebar .widget_shopping_cart {
     margin-bottom: 0;
@@ -5676,14 +5678,14 @@ li.cat-parent {
 
 .amount {
     margin-right: 5px;
-    
+
 }
 #secondary.sidebar ul li ins span.amount,
 #secondary.sidebar ul li span.amount{
     color:#77a464;
 }
 #secondary.sidebar ul li del span.amount{
-        color: #e24545; 
+        color: #e24545;
 }
 .woocommerce ul.cart_list li img,
 .woocommerce ul.product_list_widget li img {
@@ -6009,7 +6011,7 @@ ul.products.list li.product:last-child {
     margin-top: -8px;
 }
 .woocommerce .star-rating span {
-    text-indent: 999px; 
+    text-indent: 999px;
     left: 2px;
 }
 .woocommerce .star-rating span::before {
@@ -6017,7 +6019,7 @@ ul.products.list li.product:last-child {
 }
 #secondary.sidebar .woocommerce ul li .star-rating span {
     line-height: inherit !important;
-}   
+}
 
 /*--Comment Form Css--*/
 
@@ -6281,7 +6283,7 @@ h3#order_review_heading {
     backface-visibility: visible;
     -webkit-backface-visibility: visible;
     /* Chrome, Safari, Opera */
-    
+
     backface-visibility: visible;
 }
 .pp_top {
@@ -6610,7 +6612,7 @@ ul.products.list li.product hr {
 /*------------------------------------------
 AP WIDGET TITLE SECOND AYOUT
 -------------------------------------------*/
-.apwidget_title #ap-cta-video .widget_accesspress_cta_simple, .apwidget_title .top-footer-block .widget-title, 
+.apwidget_title #ap-cta-video .widget_accesspress_cta_simple, .apwidget_title .top-footer-block .widget-title,
 .apwidget_title #secondary.sidebar .widget-title {
     overflow: visible;
 }
@@ -6622,7 +6624,7 @@ AP WIDGET TITLE SECOND AYOUT
     border-bottom: 1px solid #ddd;
 }
 .apwidget_title #ap-cta-video .widget_accesspress_cta_simple {
-    border-bottom-color: #444; 
+    border-bottom-color: #444;
 }
 .apwidget_title .search-results h2.entry-title, .apwidget_title .prod-title {
     background: none;
@@ -6705,29 +6707,29 @@ AP WIDGET TITLE SECOND AYOUT
     visibility: visible;
 }
 .apwidget_title .new-prod-slide .slick-prev:hover, .apwidget_title .new-prod-slide .slick-next:hover,
-.widget_accesspress_store_product2 .feature-cat-product .slick-prev:hover, 
+.widget_accesspress_store_product2 .feature-cat-product .slick-prev:hover,
 .widget_accesspress_store_product2 .feature-cat-product .slick-next:hover {
     background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
 }
 .apwidget_title .widget, .apwidget_title #secondary.sidebar .woocommerce, .apwidget_title #comments .comment-list,
-.apwidget_title .woocommerce .cart-collaterals .cart_totals, .apwidget_title.woocommerce-page .cart-collaterals .cart_totals, 
-.apwidget_title.woocommerce-cart .cross-sells h2, .apwidget_title.woocommerce-cart .cart_totals h2, 
-.apwidget_title .checkout .woocommerce-billing-fields, .apwidget_title .checkout .woocommerce-billing-fields p, 
+.apwidget_title .woocommerce .cart-collaterals .cart_totals, .apwidget_title.woocommerce-page .cart-collaterals .cart_totals,
+.apwidget_title.woocommerce-cart .cross-sells h2, .apwidget_title.woocommerce-cart .cart_totals h2,
+.apwidget_title .checkout .woocommerce-billing-fields, .apwidget_title .checkout .woocommerce-billing-fields p,
 .apwidget_title .checkout .woocommerce-shipping-fields, .apwidget_title .checkout .woocommerce-shipping-fields p {
     position: relative;
 }
-.apwidget_title .top-footer-block .widget-title, .apwidget_title #secondary.sidebar .widget-title, .apwidget_title .comments-title, 
+.apwidget_title .top-footer-block .widget-title, .apwidget_title #secondary.sidebar .widget-title, .apwidget_title .comments-title,
 .apwidget_title .comments-area .comment-respond h3.comment-reply-title,
 .apwidget_title.woocommerce-cart .cross-sells h2, .apwidget_title.woocommerce-cart .cart_totals h2 {
     background: none;
     border-bottom: 2px solid #cc444d;
-    display: inline-block; 
+    display: inline-block;
 }
 .apwidget_title .comments-area .comment-respond h3.comment-reply-title {
     background: none !important;
 }
 .apwidget_title #secondary.sidebar .widget-title, .apwidget_title .comments-title,
-.apwidget_title .comments-area .comment-respond h3.comment-reply-title, 
+.apwidget_title .comments-area .comment-respond h3.comment-reply-title,
 .apwidget_title.woocommerce-cart .cross-sells h2, .apwidget_title.woocommerce-cart .cart_totals h2 {
     z-index: 1;
 }
@@ -6801,7 +6803,7 @@ AP WIDGET TITLE SECOND AYOUT
     padding-left: 0;
     padding-right: 0;
 }
-.apwidget_title .widget_search .searchform::before, .apwidget_title .woocommerce .cart-collaterals .cart_totals::before, 
+.apwidget_title .widget_search .searchform::before, .apwidget_title .woocommerce .cart-collaterals .cart_totals::before,
 .apwidget_title.woocommerce-page .cart-collaterals .cart_totals::before,
 .apwidget_title .checkout .woocommerce-billing-fields::before, .apwidget_title .checkout .woocommerce-shipping-fields:before {
     border-top: 1px solid #ddd;
@@ -6812,7 +6814,7 @@ AP WIDGET TITLE SECOND AYOUT
     top: 51px;
     width: 100%;
 }
-.apwidget_title .woocommerce .cart-collaterals .cart_totals::before, .apwidget_title.woocommerce-page .cart-collaterals .cart_totals::before, 
+.apwidget_title .woocommerce .cart-collaterals .cart_totals::before, .apwidget_title.woocommerce-page .cart-collaterals .cart_totals::before,
 .apwidget_title .checkout .woocommerce-billing-fields::before, .apwidget_title .checkout .woocommerce-shipping-fields:before {
     top: 41px;
 }
@@ -6902,7 +6904,7 @@ AP WIDGET TITLE SECOND AYOUT
     position: relative;
 }
 .woocommerce .wishlist-title h2 {
-    font-size: 16px; 
+    font-size: 16px;
 }
 
 .apwidget_title .top-footer-block .widget-title {
@@ -6928,7 +6930,7 @@ AP WIDGET TITLE SECOND AYOUT
     border-bottom: none;
     padding-bottom: 0;
 }
-.apwidget_title .sidebar .widget_aptf_widget .aptf-single-tweet-wrapper:before, 
+.apwidget_title .sidebar .widget_aptf_widget .aptf-single-tweet-wrapper:before,
 .apwidget_title .sidebar .widget_aptf_widget .aptf-single-tweet-wrapper:after {
     display: table;
     content: "";
@@ -6938,7 +6940,7 @@ AP WIDGET TITLE SECOND AYOUT
 boxd layout css
 */
 .boxed .ak-container {
-    padding: 0 10px; 
+    padding: 0 10px;
 }
 .boxed .new-prod-slide .slick-slide {
     padding: 0 10px 0 0;
@@ -6954,7 +6956,7 @@ nav.woocommerce-MyAccount-navigation {
 nav.woocommerce-MyAccount-navigation ul {
     list-style: none;
     padding: 0;
-    margin: 0; 
+    margin: 0;
 }
 nav.woocommerce-MyAccount-navigation ul li {
     padding: 5px 10px;
